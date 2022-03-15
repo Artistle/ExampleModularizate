@@ -16,9 +16,15 @@
             <option value="$PROJECT_DIR$/core-ui" />
             <option value="$PROJECT_DIR$/database" />
             <option value="$PROJECT_DIR$/database-impl" />
+            <option value="$PROJECT_DIR$/di-qualifier" />
             <option value="$PROJECT_DIR$/entity" />
             <option value="$PROJECT_DIR$/feature-core" />
             <option value="$PROJECT_DIR$/features" />
+            <option value="$PROJECT_DIR$/features/auth" />
+            <option value="$PROJECT_DIR$/features/auth-impl" />
+            <option value="$PROJECT_DIR$/features/features-di" />
+            <option value="$PROJECT_DIR$/features/gallery" />
+            <option value="$PROJECT_DIR$/features/gallery-impl" />
             <option value="$PROJECT_DIR$/features/main" />
             <option value="$PROJECT_DIR$/features/main-impl" />
             <option value="$PROJECT_DIR$/features/main2" />

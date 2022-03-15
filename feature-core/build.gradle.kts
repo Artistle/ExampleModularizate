@@ -17,6 +17,8 @@ dependencies {
 
     addCoreDependencies()
     addNavigationDependencies()
+
+    implementation(project(":di-qualifier"))
     api(project(":entity"))
     api(fragmentKtx)
     api(viewModelKtx)

@@ -15,9 +15,10 @@ dependencies {
 //    implementation(project(":network"))
 //    implementation(project(":repositories"))
 //    implementation(project(":database"))
+    implementation(project(":di-qualifier"))
     implementation(project(":database-impl"))
     implementation(project(":network-impl"))
     implementation(project(":repositories-impl"))
     implementation(project(":navigation-impl"))
-    implementation(project(":features:main-impl"))
+    implementation((project(":features:features-di")))
 }

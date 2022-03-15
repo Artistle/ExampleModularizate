@@ -30,4 +30,7 @@ object Versions {
     const val koinVersion = "3.2.0-beta-1"
 
     const val roomVersion = "2.4.0"
+
+    const val firebaseBom = "29.1.0"
+    const val firebasePlayService = "20.1.0"
 }

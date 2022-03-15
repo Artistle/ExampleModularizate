@@ -14,6 +14,7 @@ dependencies {
 
     addCoreDependencies()
     addCoreViewDependencies()
+    implementation(project(":di-qualifier"))
     /**
      *
      * TODO подключение необходимых библиотек методом api()

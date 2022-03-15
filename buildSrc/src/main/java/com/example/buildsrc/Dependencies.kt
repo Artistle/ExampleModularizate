@@ -32,7 +32,6 @@ object Dependencies {
      */
     private fun DependencyHandler.addKoinDependencies() {
         impl(Libraries.koin)
-        //impl(Libraries.koinViewModel)
     }
 
     /**
@@ -65,7 +64,7 @@ object Dependencies {
         api(Libraries.retrofitConverterGson)
         api(Libraries.okhttp3)
         api(Libraries.loggingInterceptor)
-        api(Libraries.chuck)
+        //api(Libraries.chuck)
     }
 
     private fun DependencyHandler.api(depName: Any) {
@@ -81,7 +80,7 @@ object Dependencies {
     }
 
     private fun DependencyHandler.debud(depName: Any) {
-        add("debugImplementation", depName)
+        add("androidTestImplementation ", depName)
     }
 
     private fun DependencyHandler.compile(depName: Any) {

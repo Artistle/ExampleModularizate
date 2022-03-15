@@ -69,6 +69,8 @@ dependencies {
     addCoreDependencies()
     addCoreViewDependencies()
     addNavigationDependencies()
+
+    implementation(project(":di-qualifier"))
     api(project(":core-di"))
     api(project(":network"))
     api(project(":navigation"))

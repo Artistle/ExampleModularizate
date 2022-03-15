@@ -14,4 +14,6 @@ dependencies {
 
     addCoreDependencies()
     addNavigationDependencies()
+
+    implementation(project(":di-qualifier"))
 }

@@ -2,7 +2,6 @@ package com.example.buildsrc
 
 object Libraries {
 
-    //const val kotlin = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${Versions.kotlinVersion}"
     const val coroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutines}"
 
     const val appCompat = "androidx.appcompat:appcompat:${Versions.appCompat}"
@@ -39,4 +38,8 @@ object Libraries {
     const val room = "androidx.room:room-runtime:${Versions.roomVersion}"
     const val roomCompiler = "androidx.room:room-compiler:${Versions.roomVersion}"
     const val roomKtx = "androidx.room:room-ktx:${Versions.roomVersion}"
+
+    const val firebaseBom = "com.google.firebase:firebase-bom:${Versions.firebaseBom}"
+    const val firebasePlayService = "com.google.android.gms:play-services-auth:${Versions.firebasePlayService}"
+    const val firebaseAuth = "com.google.firebase:firebase-auth-ktx"
 }

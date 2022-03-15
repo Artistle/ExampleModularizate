@@ -13,4 +13,6 @@ dependencies {
 
     addCoreDependencies()
     addRoomDependencies()
+
+    implementation(project(":di-qualifier"))
 }

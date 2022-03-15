@@ -14,4 +14,6 @@ dependencies {
 
     addCoreDependencies()
     addNetworkDependencies()
+
+    implementation(project(":di-qualifier"))
 }

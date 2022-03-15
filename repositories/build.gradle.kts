@@ -13,5 +13,6 @@ dependencies {
 
     addCoreDependencies()
 
+    implementation(project(":di-qualifier"))
     implementation(project(":network-impl"))
 }

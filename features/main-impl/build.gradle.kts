@@ -1,5 +1,6 @@
 import com.example.buildsrc.AndroidSdk.compile
 import com.example.buildsrc.Dependencies.addCoreDependencies
+import com.example.buildsrc.Dependencies.addFeaturesDependencies
 import com.example.buildsrc.Dependencies.addNavigationDependencies
 
 plugins {
@@ -14,7 +15,9 @@ dependencies {
 
     addCoreDependencies()
     addNavigationDependencies()
+    addFeaturesDependencies()
 
+    implementation(project(":di-qualifier"))
     implementation(project(":feature-core"))
     api(project(":features:main"))
 }
